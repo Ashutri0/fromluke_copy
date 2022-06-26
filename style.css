@@ -1,0 +1,872 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    cursor: none;
+}
+#main{
+    width: 100%;
+    height: 800vh;
+    background-color: #F8F8F8;
+   position: relative;
+}
+#main #main1{
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F8F8;
+    position: relative;
+    border-top: 1px solid #F8F8F8;
+}
+
+#main #main1 #nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: relative;
+    margin-top: 10px;
+   
+}
+#main #main1 #nav #nav1{
+    height: 100%;
+    margin-left: 10px;
+    /* position: fixed; */
+    position: absolute;
+    z-index: 9;
+    top: 5%;
+  }
+
+
+
+#main #main1 #nav #nav1 .l1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main #main1 #nav #nav1 .l1 h2{
+    font-family: monument;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 200;
+}
+#main #main1 #nav #nav1 .l1 h2 span{
+    font-family: monument;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: -14px;
+    margin-bottom: -10px;
+
+}
+#main #main1 #nav #nav1 .l2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main #main1 #nav #nav1 .l2 h2{
+    font-family: monument;
+    font-size: 30px;
+    font-weight: 200;
+}
+#main #main1 #nav #nav1 .l2 h2 span{
+    font-family: monument;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: -15px;
+} 
+
+#main #main1 #nav2{
+    width: 20%;
+    height: 9vh;
+    background-color: black;
+    margin-left: 1020px;
+    margin-top: -50px;
+    border-radius: 55px;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    transition-property: transform;
+    transition-duration: 2s;
+    transform-origin: right;
+    opacity: 0;
+    
+    
+}
+#main #main1 #nav2 h3{
+    color: white;
+    font-family: gilroy regular;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+#main #main1 #nav2 #circle{
+    width: 30%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: -35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   font-size: 30px;
+   animation: cursorAnim8 5s infinite linear;
+
+
+
+}
+
+#main #main1 #circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   opacity: 1;
+   margin-left: 1262px;
+   margin-top: -48px;
+   border-radius: 55px;
+   position: fixed;
+   z-index: 99;
+
+}
+
+
+#main #heading{
+    width: 65%;
+    height: 75%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+#main #heading #up{
+    width:100%;
+    height: 50%;
+    padding: 10px;
+    opacity: 0;
+}
+#main #heading #up h1{
+    font-family: edingu;
+    font-size: 200px;
+    font-weight: 700;
+    letter-spacing:-5px;
+   margin-left: 30px;
+   margin-top: 140px;
+}
+
+#main #heading #down{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    opacity: 0;
+}
+#main #heading #down h1{
+    font-family: edingu;
+    font-size: 170px;
+    font-weight: 700;
+    letter-spacing:0px;
+   margin-left: 30px;
+   margin-top: 140;
+}
+
+#main #main1 #p{
+    position: absolute;
+   right: 5%;
+   bottom: 28%;
+   font-family: gilroy light;
+   color: grey;
+
+}
+
+#main #main1 #p p{
+   font-size: 10px;
+   letter-spacing: 3px;
+   font-family: gilroy light;
+   color: grey;
+}
+
+#main #main2{
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F8F8;
+    position: relative;
+}
+#main #main2 #slide{
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    top: 9%;
+    right: 6%;
+    z-index: 8;
+ 
+}
+#main #main2 #slide .block1{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/603bf45448b1e8fa7b57d2b3_Scotch%20Packaging%20Tape-p-1080.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#main #main2 #slide .block2{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main2 #slide .block2 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main2 #slide .block3{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main2 #slide .block3 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+
+}
+
+#main #main3{
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F8F8;
+    position: relative;
+}
+#main #main3 #slide1{
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+ 
+}
+#main #main3 #slide1 .block4{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/60a09b8720a98151b6f60ba7_Vurve%20Mailer%20Box-p-1080.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#main #main3 #slide1 .block5{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main3 #slide1 .block5 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main3 #slide1 .block6{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main3 #slide1 .block6 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+
+#main #main4{
+    width: 100%;
+    height: 100vh;
+    background-color: #F8F8F8;
+    position: relative;
+}
+#main #main4 #slide2{
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    top: 9%;
+    right: 6%;
+ 
+}
+#main #main4 #slide2 .block7{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/606a93bdaf0a4258232bdeb7_Knibble%20Dog-p-1080.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#main #main4 #slide2 .block8{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main4 #slide2 .block8 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main4 #slide2 .block9{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main4 #slide2 .block9 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+
+#main #main5{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#main #main5 #slide3{
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+ 
+}
+#main #main5 #slide3 .block77{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/60986aadc9bd43f1b4692ae0_Luciforma%20TearSheets-p-1600.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#main #main5 #slide3 .block88{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main5 #slide3 .block88 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main5 #slide3 .block99{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main5 #slide3 .block99 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+
+
+#main #main6{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#main #main6 #slide4{
+    width: 48%;
+    height: 70%;
+    position: absolute;
+    top: 9%;
+    right: 6%;
+ 
+}
+#main #main6 #slide4 .block777{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/603b481a11f531319e997284_Rethink%20Stage-p-800.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#main #main6 #slide4 .block888{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main6 #slide4 .block888 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main6 #slide4 .block999{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main6 #slide4 .block999 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+
+#main #main7{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#main #main7 #slide5{
+    width: 48%;
+    height: 90%;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+ 
+}
+#main #main7 #slide5 .block7777{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/60b6a27aed5533fd55443f30_Frusea-p-800.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+#main #main7 #slide5 .block8888{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main7 #slide5 .block8888 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main7 #slide5 .block9999{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main7 #slide5 .block9999 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+#main #main8{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#main #main8 #slide6{
+    width: 48%;
+    height: 90%;
+    position: absolute;
+    top: 9%;
+    right: 6%;
+ 
+}
+#main #main8 #slide6 .block77777{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/5ff77745c55897bb869c7e00_Argos%20Payoff-p-1080.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+#main #main8 #slide6 .block88888{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main8 #slide6 .block88888 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main8 #slide6 .block99999{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main8 #slide6 .block99999 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+
+#main #main9{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#main #main9 #slide7{
+    width: 48%;
+    height: 90%;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+ 
+}
+#main #main9 #slide7 .block777777{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/5ff79ee7eff831172294f87f_Kindly%20Spines2-p-1080.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+#main #main9 #slide7 .block888888{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main9 #slide7 .block888888 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main9 #slide7 .block999999{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main9 #slide7 .block999999 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+
+
+
+#main #main10{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+#main #main10 #slide8{
+    width: 48%;
+    height: 90%;
+    position: absolute;
+    top: 9%;
+    right: 6%;
+ 
+}
+#main #main10 #slide8 .block7777777{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://uploads-ssl.webflow.com/5f5d041dc83a72a230e0090b/60a0bc2734e04983a74a0707_A21%20Payoff1-p-1080.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+#main #main10 #slide8 .block8888888{
+    width: 100%;
+    height: 10%;
+    
+    
+    
+}
+#main #main10 #slide8 .block8888888 h3{
+    font-family: gilroy medium;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 900;
+    margin-right: 25px;
+
+}
+#main #main10 #slide8 .block9999999{
+    width: 100%;
+    height: 10%;
+    
+}
+#main #main10 #slide8 .block9999999 h3{
+    font-family: gilroy light;
+    font-size: 10px;
+    color: gray;
+    word-spacing: 20px ;
+}
+.block1 {
+    
+    background: white;
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block1:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+  .block4 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block4:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+  .block7 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block7:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+  .block77{
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block77:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  .block777 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block777:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+  .block7777 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block7777:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+  .block77777 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block77777:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+  .block777777 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block777777:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  
+  .block7777777 {
+    transition-property: transform;
+    transition-duration: 2s;
+  
+  }
+  
+  .block7777777:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+
+
+  #main11{
+      width: 100%;
+      height: 100vh;
+  }
+
+
+
+
+@keyframes animation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+
+#cursor{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    transform: translate(-50%,-50%);
+ 
+}
+
+.expand{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(./point.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    opacity: 1;
+
+}
+
+
+.container1{
+  
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+    background-image: url(./pointer.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: cursorAnim5 5s infinite linear ;
+    position: relative;
+    z-index: 9;
+    transform: translate(-50%,-50%);
+    opacity: 0; 
+    
+
+}
+.container{
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    opacity: 1;
+
+}
+
+@keyframes cursorAnim5{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes cursorAnim8{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+.copy-right-sec{
+    font-size: 20px;
+	padding: 1.8rem;
+    background: #0f0f0f;
+    color: #fff;
+    text-align: center;
+}
+.copy-right-sec a{
+	color: #fcd462;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
